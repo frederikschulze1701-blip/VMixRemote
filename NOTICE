@@ -1,0 +1,6 @@
+VMixRemote Swift/macOS rewrite
+
+The Swift/macOS implementation, packaging files, and generated app icon added in
+this repository are licensed under Apache License 2.0. The original VMix WPF/C#
+project files already present in this checkout retain their existing
+NPOSL-3.0 licensing unless their copyright holders explicitly relicense them.
