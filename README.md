@@ -6,6 +6,13 @@ VMixRemote is a native macOS rebuild of the original VMix mixer-remote idea. It
 is written in Swift and SwiftUI, keeps mixer logic in a platform-neutral core,
 and talks to MIDI through a testable backend abstraction.
 
+Project page: https://frederikschulze1701-blip.github.io/VMixRemote/
+
+Origin: VMixRemote is inspired by
+[`space928/VMix`](https://github.com/space928/VMix), a WPF/.NET virtual mixer
+control project for MIDI-enabled digital mixers. The Swift/macOS rewrite in this
+repository does not copy WPF, XAML, `System.Windows`, or C# implementation files.
+
 ## Status
 
 This is an MVP:
