@@ -29,16 +29,15 @@ The run script stages a local app bundle at `dist/VMix Remote.app`.
 
 ## Homebrew
 
-After the `v0.1.0` tag exists on GitHub:
-
 ```bash
-brew install --HEAD https://raw.githubusercontent.com/frederikschulze1701-blip/VMixRemote/main/Formula/vmix-remote.rb
+brew tap frederikschulze1701-blip/vmixremote
+brew install vmix-remote
 ```
 
-For local formula testing:
+Or in one command:
 
 ```bash
-brew install --build-from-source ./Formula/vmix-remote.rb
+brew install frederikschulze1701-blip/vmixremote/vmix-remote
 ```
 
 ## License
